@@ -1,0 +1,24 @@
+.todoItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todoItem span {
+    cursor: pointer;
+  }
+  
+  .todoItem.completed span {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  
+  .todoItem button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

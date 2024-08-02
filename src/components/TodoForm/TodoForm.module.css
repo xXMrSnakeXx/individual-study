@@ -1,0 +1,17 @@
+.addTodo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .addTodo input {
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .addTodo button {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+  
